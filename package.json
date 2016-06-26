@@ -34,6 +34,7 @@
     "express": "4.13.4",
     "express-graphql": "^0.5.3",
     "graphql-tools": "^0.3.6",
+    "meteor-random": "0.0.3",
     "mongodb": "^2.1.18",
     "mongoose": "^4.4.12",
     "request-promise": "^3.0.0",
