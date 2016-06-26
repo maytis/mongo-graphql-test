@@ -1,0 +1,50 @@
+{
+  "name": "mongo-graphql-test",
+  "version": "0.1.0",
+  "description": "Using apollo for server",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maytis/mongo-graphql-test.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "GraphQL",
+    "Express",
+    "Apollo"
+  ],
+  "author": "Ashwin Kumar <mail@ashwinkumar.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maytis/mongo-graphql-test/issues"
+  },
+  "homepage": "https://github.com/maytis/mongo-graphql-test#readme",
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "6.2.3",
+    "babel-polyfill": "6.5.0",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "bluebird": "^3.4.1",
+    "express": "4.13.4",
+    "express-graphql": "^0.5.3",
+    "graphql-tools": "^0.3.6",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.4.12",
+    "request-promise": "^3.0.0",
+    "sequelize": "^3.21.0",
+    "sqlite3": "^3.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "6.5.1",
+    "casual": "^1.5.2",
+    "lodash": "^4.11.1",
+    "nodemon": "^1.9.1",
+    "webpack": "^1.13.1"
+  }
+}
